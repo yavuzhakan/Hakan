@@ -1,0 +1,38 @@
+1.Soru cevap
+
+int main() {
+
+    
+    char a;
+    a = getchar();
+    
+    switch (a)
+    {
+    case 'A':
+    case 'B':
+        printf("Turkce karakter girildi\n");
+        break;
+    case 'X':
+    case 'Y':
+        printf("Turkce olmayan bir karakter girildi\n");
+        break;
+    default:
+        printf("Girilen Karakter: %c\n", a);
+        break;
+    }
+    */
+    /*
+    if (a == 'A' || a == 'B')
+    {
+        printf("Turkce karakter girildi\n");
+    }
+    else if (a == 'X'||a=='x' || a == 'Y' ||a=='y' )
+    {
+
+        printf("Turkce olmayan bir karakter girildi\n");
+    }
+    else 
+    {
+        printf("Girilen Karakter: %c\n", a);
+    }
+    return 0;
